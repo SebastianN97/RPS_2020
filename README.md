@@ -1,6 +1,9 @@
 
+..Fix README file later..
 
+## What is the goal
+To create a RPS game with a record there you can see how many times you can win in a row.
 
-Steps to do next time! 
+Next steps:
 
-- Create test files and then start with JS codes for RPS. 
+- 
