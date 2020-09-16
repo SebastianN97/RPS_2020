@@ -1,9 +1,4 @@
 
-function rpsFuction() {
-    
-
-
-}
 
 function check(computer, user) {
     
@@ -36,5 +31,8 @@ function check(computer, user) {
     else if ( computer == 'scissor' | user 'scissor' ) {
         result = 'draw'
     }
-    else 
+    else (
+        result = 'lose'
+    )
 }
+
