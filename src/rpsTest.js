@@ -1,10 +1,10 @@
 
-const rps = () => {
+
 
     function computer() {
         const random = ( Math.floor(Math.random() * 3) );
         const choice = ( 'rock', 'paper', 'scissor' )
-        return choice = [random];
+        
     }
 
     function random() {
@@ -58,6 +58,3 @@ const rps = () => {
         )
     }
 
-
-
-}
