@@ -1,5 +1,5 @@
 
-const rps = () => {
+const game = () => {
 
 
     const playMatch = () => {
@@ -8,15 +8,22 @@ const rps = () => {
         const computerHand = document.querySelector(".computer-hand");
 
         const computerOptions = ["rock", "paper", "scissor"]
-      
+        
+        // Computers choice function
         options.forEach( option => {
             option.addEventListener("click", function() {
             const computerNumber = Math.floor(Math.random() * 3);
             const computerChoice = computerOptions[computerNumber];
+
+            //Changing image after choice
+            playerHand.src = `pictures/${this.textContent}.png`;
+            computerHand.src = `pictures/${computerChoice}.png`;
+
+
             });
         });
     };
-
+    // Comparing hands between player and computer
     const compareHands = (playerChoice, computerChoice) => {
         const winner = document.querySelector('.winner');
         
@@ -55,7 +62,7 @@ const rps = () => {
             if(computerChoice === "rock") {
                 winner.textContent = "You lost!"
                 return;
-            };
+            }
             else {
                 winner.textContent = "You won!"
                 return;
@@ -71,5 +78,5 @@ const rps = () => {
 };
 
 // start rps 
-rps();
+game();
 
