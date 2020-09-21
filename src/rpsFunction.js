@@ -18,14 +18,13 @@ const rps = () => {
     };
 
     const compareHands = (playerChoice, computerChoice) => {
-        //Game texts
         const winner = document.querySelector('.winner');
         
         // Getting a tie
         if(playerChoice === computerChoice) {
             winner.textContent = "You got tie!";
             return;
-        }
+        };
 
         // Player have rock
         if(playerChoice === "rock") {
@@ -40,6 +39,30 @@ const rps = () => {
         };
 
         // Player have paper
+        if(playerChoice === "paper") {
+            if(computerChoice === "scissor") {
+                winner.textContent = "You lost!"
+                return;
+            }
+            else {
+                winner.textContent = "You won!"
+                return;
+            };
+        };
+
+        // Player have scissor
+        if(playerChoice === "scissor") {
+            if(computerChoice === "rock") {
+                winner.textContent = "You lost!"
+                return;
+            };
+            else {
+                winner.textContent = "You won!"
+                return;
+            };
+        };
+
+
 
     };
 
