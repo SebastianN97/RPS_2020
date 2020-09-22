@@ -23,15 +23,16 @@ const game = () => {
             });
         });
     };
+    
     // Comparing hands between player and computer
     const compareHands = (playerChoice, computerChoice) => {
-        const winner = document.querySelector('.winner');
+        const winner = document.querySelector(".winner");
         
         // Getting a tie
         if(playerChoice === computerChoice) {
             winner.textContent = "You got tie!";
             return;
-        };
+        }
 
         // Player have rock
         if(playerChoice === "rock") {
@@ -42,8 +43,8 @@ const game = () => {
             else {
                 winner.textContent = "You lost!";
                 return;
-            };
-        };
+            }
+        }
 
         // Player have paper
         if(playerChoice === "paper") {
@@ -54,8 +55,8 @@ const game = () => {
             else {
                 winner.textContent = "You won!"
                 return;
-            };
-        };
+            }
+        }
 
         // Player have scissor
         if(playerChoice === "scissor") {
@@ -66,17 +67,12 @@ const game = () => {
             else {
                 winner.textContent = "You won!"
                 return;
-            };
-        };
-
-
-
+            }
+        }
+        
     };
-
-    playMatch();
-    
+    playMatch(); 
 };
-
-// start rps 
 game();
+
 
