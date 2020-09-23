@@ -7,28 +7,27 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie-edge">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="rps.css">
         <title>Rock Paper Scissor</title>
     </head>
 
     <body>
         <h1>Rock Paper Scissor</h1>
-        
-        <h2>Computer</h2>
-        <p></p>
-        <h2>Player</h2>
-        <p></p>
+            <div id="game">
+                <h2 id="title-computer">Computer</h2>
+                <p id= "computer-choice"></p>
+                <h2>Player</h2>
+                <p id= "player-choice"></p>
 
-        <button
-            class="choice" id="rock">rock</button>
-        <button 
-        class="choice" id="rock">rock</button>
-        <button
-            class="choice" id="rock">rock</button>
+                <h2 id="result-title">Result:</h2>
+                <p id="result"></p>
 
-        
-        <script  src="./rpsFunction.js"></script>
-    </body>
+                <button class="choice" id="rock">rock</button>
+                <button class="choice" id="paper">paper</button>
+                <button class="choice" id="scissor">scissor</button>
+            </div>
+        </body>
 
+    <script  src="rpsFunction.js"></script>
 </html>
 

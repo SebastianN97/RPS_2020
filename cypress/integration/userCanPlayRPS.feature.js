@@ -4,7 +4,8 @@ describe('User can play RPS', () => {
         cy.visit('http://localhost:3001')
         cy.contains('Rock Paper Scissor')
         cy.contains("rock").click()
-        
-        
+        cy.contains("paper").click()
+        cy.contains("scissor").click()
+                
     })
 })
