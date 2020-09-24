@@ -1,0 +1,65 @@
+
+body {
+    margin-top: 30px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
+
+h1 {
+    color: silver;
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+#background {
+    margin-top: 50px;
+    border-radius: 25px;
+}
+
+.title-computer {
+    margin-top: 300px;
+}
+
+h2 {
+    color: silver;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+p {
+    color: silver;
+  § font-size: 30px; 
+}
+
+#comp-player {
+    margin-top: px;
+}
+
+#comp-position {
+    float: right;
+    margin: 10px;
+    margin-right: 200px;
+}
+
+#play-position {
+    float: left;
+    margin: 10px;
+    margin-left: 200px;
+}
+
+#result-position {
+    margin-top: 200px;
+}
+
+.choice {
+    background-color: rgb(16, 16, 146);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    display: inline-block;
+
+    font-size: 16px;
+    margin-top: 50px;
+    margin: 20px;
+    border-radius: 10px;
+}

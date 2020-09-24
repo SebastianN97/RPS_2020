@@ -1,9 +1,10 @@
 
-..Fix README file later..
+## [WIP] Rock Paper Scissors
 
-## What is the goal
-To create a RPS game with a record there you can see how many times you can win in a row.
+### Functions to add
+- Animation for players and computers hand.
+- Images for the rps items and for comp/player hand.
+- Scoreboard.
+- Create a 'restart game' button. 
 
-Next steps:
-
-- Connect the function between rps.js and rpsFunction.js and fix both functions. 
+- Use old rps function for all features. 
